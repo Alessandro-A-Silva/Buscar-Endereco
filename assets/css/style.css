@@ -7,7 +7,7 @@
 
 body{
     height: 100vh;
-    background-image: url("..images/camacari.png");
+    background-image: url("../images/camacari.png");
     background-size: cover;
     backdrop-filter: blur(3px);
 
@@ -15,7 +15,6 @@ body{
 
 header{
     height: 5vh;
-    /* background-color: black; */
     color: #001e6b;
     text-align: center;
     font-weight: bold;
