@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: url("/assets/images/camacari.png");
+    background-size: cover;
+    backdrop-filter: blur(3px);
+
+}
+
+header{
+    height: 5vh;
+    /* background-color: black; */
+    color: #001e6b;
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+section{
+    background-color: rgb(72, 170, 255);
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 340px;
+}
+
+#titulo i {
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    color: white;
+}
+
+img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+form{
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#cep-area{
+    border: 2px solid rgb(72, 170, 255);
+    border-radius: 5px;;
+    padding: 5px;
+}
+
+#buscar{
+    width: 28%;
+    border: none;
+    background-color: rgb(0, 132, 0);
+    height: 26px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(0, 167, 0);
+}
+
+#cep{
+    width: 70%;
+}
+
+input{
+    height: 26px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#outros-area{
+    padding: 7px;
+}
+
+.lb{
+    font-weight: bold;
+}
+
+.outro{
+    margin: 2px 0 5px;
+    width: 100%;
+}
+
+#limpar{
+    width: 100%;
+    border: none;
+    background-color: rgb(146, 0, 0);
+    height: 26px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+footer{
+    height: 5vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #001e6b;
+    font-weight: bold;
+    font-size: 20px;
+}
